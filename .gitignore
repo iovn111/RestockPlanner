@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Build
+build/
+dist/
+packaging/output/
+
+# Datasets and local databases
+/data/
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+
+# Secrets: API keys never go to git
+.env
+.env.*
+*.key
+*secret*
+*token*
+kaggle.json
+
+# Local tooling
+CLAUDE.md
+.claude/
+docs/WORK_PLAN.md
+
+# OS / IDE
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
